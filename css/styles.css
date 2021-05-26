@@ -152,7 +152,10 @@ img {
 
 .hero {
   height: 600px;
-  background-color: var(--secondary-background-color);
+  background-color: var(--secondary-background-colosr);
+  background-image: linear-gradient(to right, #2f303a 40 %);
+  background-image: url(../Images/);
+  background-color: black;
 
   padding-top: 200px;
   padding-bottom: 200px;
