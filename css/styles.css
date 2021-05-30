@@ -378,18 +378,18 @@ img {
 .our-сlients {
   display: flex;
 }
-.our-clients-item > button {
-  width: 170px;
-  height: 92px;
-  border: 1px var(--first-icon-color);
-  border-radius: 4px;
-}
 
 .our-clients-item {
   width: calc((100% - 150px) / 6);
   margin-right: 30px;
   display: flex;
   justify-content: center;
+  border: 1px solid var(--first-icon-color);
+  border-radius: 4px;
+}
+
+.our-clients-item:hover {
+  border-color: var(--accent-color);
 }
 
 .our-clients-item:last-child {
@@ -398,7 +398,6 @@ img {
 
 .button-icon.client {
   height: 92px;
-  background-color: var(--third-icon-color);
 }
 
 /* Footer */
