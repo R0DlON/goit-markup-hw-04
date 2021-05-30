@@ -447,13 +447,11 @@ img {
 }
 .icon-list.footer-i {
   justify-content: flex-start;
-  flex-wrap: wrap;
-  display: flex;
 }
 
 .icon-list-title {
-  display: flex;
   margin-bottom: 20px;
+  font-size: 14px;
   color: var(--white-text-color);
 }
 
