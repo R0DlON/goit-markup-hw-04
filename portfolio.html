@@ -35,27 +35,19 @@
           </ul>
         </nav>
         <ul class="auth-list">
-          <li class="auth-list-item icon">
-            <button class="button">
-              <svg class="button-icon mail">
+          <li class="auth-list-item">
+            <a href="mailto:info@devstudio.com" class="auth-list-link link">
+              <svg class="auth-list-icon mail">
                 <use href="./Images/sprite.svg#mail"></use>
               </svg>
-            </button>
-          </li>
-          <li class="auth-list-item">
-            <a href="mailto:info@devstudio.com" class="auth-list-link link"
-              >info@devstudio.com</a
+              info@devstudio.com</a
             >
-          </li>
-          <li class="auth-list-item icon">
-            <button class="button">
-              <svg class="button-icon phone">
-                <use href="./Images/sprite.svg#phone"></use>
-              </svg>
-            </button>
           </li>
           <li class="auth-list-item">
             <a href="tel:380961111111" class="auth-list-link link">
+              <svg class="auth-list-icon phone">
+                <use href="./Images/sprite.svg#phone"></use>
+              </svg>
               +38 096 111 11 11</a
             >
           </li>
@@ -221,28 +213,30 @@
     <!--Подвал-->
     <footer class="footer">
       <div class="container footer-c">
-        <a href="" class="footer-logo"
-          ><span class="footer-logo-part">Web</span>Studio
-        </a>
-        <address class="address">
-          <ul class="address-list">
-            <li class="address-list-item">
-              <p class="address-list-text">г. Киев, пр-т Леси Украинки, 26</p>
-            </li>
-            <li class="address-list-item">
-              <a href="mailto:info@example.com" class="address-list-link link"
-                >info@example.com</a
-              >
-            </li>
-            <li class="address-list-item">
-              <a href="tel:380991111111" class="address-list-link link"
-                >+38 099 111 11 11</a
-              >
-            </li>
-          </ul>
-        </address>
+        <div class="address-container">
+          <a href="" class="footer-logo"
+            ><span class="footer-logo-part">Web</span>Studio
+          </a>
+          <address class="address">
+            <ul class="address-list">
+              <li class="address-list-item">
+                <p class="address-list-text">г. Киев, пр-т Леси Украинки, 26</p>
+              </li>
+              <li class="address-list-item">
+                <a href="mailto:info@example.com" class="address-list-link link"
+                  >info@example.com</a
+                >
+              </li>
+              <li class="address-list-item">
+                <a href="tel:380991111111" class="address-list-link link"
+                  >+38 099 111 11 11</a
+                >
+              </li>
+            </ul>
+          </address>
+        </div>
         <div class="icon-container">
-          <h2 class="icon-list-title">Присоединяйтесь</h2>
+          <h3 class="icon-list-title">Присоединяйтесь</h3>
           <ul class="icon-list footer-i">
             <li class="icon-list-item">
               <svg class="button-icon">
