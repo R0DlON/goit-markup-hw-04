@@ -397,12 +397,15 @@ img {
   display: flex;
   border: 1px solid var(--first-icon-color);
   border-radius: 4px;
+  cursor: pointer;
 }
 
 .our-clients-item:hover {
   border-color: var(--accent-color);
 }
-
+.our-clients-item:hover .button-icon {
+  fill: var(--accent-color);
+}
 .our-clients-item:last-child {
   margin-right: 0;
 }
